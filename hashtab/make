@@ -1,0 +1,13 @@
+#!/bin/bash
+
+# STAGE: Prepare Build Environment
+mkdir -p build && cd build
+
+# STAGE: Configure
+cmake -DCMAKE_INSTALL_PREFIX=${WORKDIR}/../out ${WORKDIR}
+
+# STAGE: Build
+make -j8
+
+# STAGE: Install
+make install
