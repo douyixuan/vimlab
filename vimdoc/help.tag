@@ -1,0 +1,10 @@
+help-tags	tags	1
+help.txt	help.txt	/*help.txt*
+help-context	help.txt	/*help-context*
+doc-file-list	help.txt	/*doc-file-list*
+Q_ct	help.txt	/*Q_ct*
+reference_toc	help.txt	/*reference_toc*
+sys-file-list	help.txt	/*sys-file-list*
+standard-plugin-list	help.txt	/*standard-plugin-list*
+local-additions	help.txt	/*local-additions*
+bars	help.txt	/*bars*
